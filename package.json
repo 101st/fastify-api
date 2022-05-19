@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "axios": "^0.27.2",
+    "esm": "^3.2.25",
+    "fastify": "^3.29.0",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "nodemon -r esm server.js"
+  }
+}
